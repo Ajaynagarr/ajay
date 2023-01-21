@@ -1,0 +1,357 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* *{
+    border:1px solid red;
+    box-sizing: border-box;
+} */
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/* first part start */
+.header{
+    width:100%;
+    background-attachment:fixed;
+    background-color:aqua;
+}
+
+.fixed-width{
+    max-width:1300px;
+    /* background-color:red; */
+    margin:0 auto;
+}
+
+.top h2{
+    float:left;
+    padding:8px;
+}
+
+.top ul{
+    float:right;
+    list-style:none;
+}
+
+.top ul li{
+    float:left;
+    padding:15px;
+}
+
+.header span{
+    margin-top: 30px;
+    float: right;
+    display: none;
+    font-size:40;
+    margin-right:4%;
+}
+
+/* first part end */
+
+/* second part start */
+.second{
+    padding:15px 0px;
+    margin-bottom:20px;
+}
+
+.second p{
+    color:gray;
+}
+
+.second .left{
+    width:45%;
+    float:left;
+}
+
+.second .left h1{
+    font-size:60;
+    margin:10px 0;
+}
+
+.second .left h4{
+    font-weight:200;
+}
+
+
+.second .left p{
+    font-weight:200;
+    font-size:25;
+    line-height:2;
+}
+
+.second .left button{
+    width:160px;
+    height:40px;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(86, 86, 207);
+    color:white;
+    border:none;
+    margin:15px 0;
+}
+
+.second .right{
+    width:45%;
+    float:right;
+}
+
+.second .right img{
+    width:100%;
+}
+/* second part end */
+
+/* third part start */
+.third .right{
+    float:left;
+}
+
+.third .left{
+    float:right;
+}
+/* third part end */
+
+/* fourth part start */
+.six-box{
+    text-align:center;
+}
+
+.six-box p{
+    color:gray;
+}
+
+.six-box .bottom{
+    width:100%;
+}
+
+.six-box .three-box{
+    width:32%;
+    float:left;
+    text-align:center;
+    padding:25px 0px;
+}
+
+.six-box .three-box span{
+    font-size:40;
+}
+/* fourth part end */
+
+/* fifth part start */
+.fifth{
+    width:100%;
+    background-color:#69b4fd;
+    padding:30px 0;
+}
+
+.four-box{
+    width:24%;
+    float:left;
+    margin-left:1%;
+    text-align:center;
+    padding:15px 0;
+}
+
+.panch h1{
+    margin-bottom:0px;
+}
+
+.panch p{
+    font-weight:100;
+    margin-top:0px;
+    color:rgb(209, 213, 215)
+}
+/* fifth part end */
+
+/* six part start */
+.different{
+    /* background-color:purple; */
+    padding:40px 0px;
+}
+
+.different h5{
+    display:inline;
+    margin-left:2%;
+}
+
+a{
+    text-decoration:none;
+}
+
+.different .argent{
+    padding-bottom:40px;
+}
+
+.different img{
+    width:95%;
+}
+
+.different .upper{
+    padding-top:40px;
+}
+
+.different .top .three-box{
+    /* background-color:darkgreen; */
+    padding:0px 0;
+}
+
+.space{
+    padding-top:60px;
+}
+/* six part end */
+
+/* seven part start */
+.seven{
+    /* background-color:blue; */
+    padding-bottom:40px;
+}
+
+.seven .left{
+    width:48%;
+    /* background-color:gold; */
+    float:left;
+}
+
+.seven .left .first{
+    width:20%;
+    /* background-color:aqua; */
+    float:left;
+}
+
+.seven .left .first img{
+    width:80%;
+    border-radius:100%;
+}
+
+.seven .distance{
+    margin-right:4%;
+    /* background-color:orange; */
+}
+
+.seven .left .last{
+    width:80%;
+    /* background-color:deeppink; */
+    float:right;
+}
+
+.last p{
+    color:gray;
+}
+/* seven part end */
+
+/* eight and second part same start */
+.eight{
+    padding:50px 0;
+}
+/* eight and second part same end*/
+
+/* ten part start */
+.master img{
+    width:100%;
+}
+
+.master p{
+    text-align:left;
+}
+
+.master .align{
+    text-align:left;
+}
+
+/* ten part end */
+
+/* footer start */
+.footer{
+    margin-top:10px;
+    padding:40px 0;
+}
+
+.five-box{
+    width:19%;
+    float:left;
+    margin-left:1%;
+}
+
+.five-box img{
+    width:70%;
+}
+/* footer end */
+
+
+/* media queries start */
+@media (max-width: 966px){
+    .top ul{
+        display: none;
+    }
+    .header span {
+        display: block;
+    }
+
+    /* second part */
+    .second .left{
+        width:95%;
+        margin-bottom:50px;
+        margin:0 auto;
+        float:none;
+        margin-bottom:35px;
+    }
+
+    .second .left h1{
+        font-size:30px;
+    }
+
+    .second .left p{
+        font-size:15px;
+    }
+
+    .second .right{
+        width:70%;
+        margin:0 auto;
+        float:none;
+        margin-top:20px;
+    }
+    /* second part end */
+
+    /* fourth part start */
+    .six-box .bottom .three-box{
+        width:80%;
+        margin:0 auto;
+        float:none;
+        margin-bottom:15px;
+    }
+
+    .six-box h1{
+        margin:8 auto;
+        font-size:36;
+    }
+    /* fourt part end */
+
+    /* fifth part start */
+    .panch .four-box{
+        width:90%;
+        margin:0 auto;
+        float:none;
+        margin-bottom:15px;
+    }
+    /* fifth part end */
+
+    /* seventh part start */
+    .seven .left{
+        width:90%;
+        margin:0 auto;
+        float:none;
+        margin-bottom:30px;
+    }
+    /* seventh part end */
+
+    /* nine part start */
+    .fixed-width .four-box{
+        width:90%;
+        margin:0 auto;
+        float:none;
+    }
+    /* nine part end */
+}
+/* media queries end */
